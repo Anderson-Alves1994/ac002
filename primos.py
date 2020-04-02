@@ -21,7 +21,8 @@ def numeros_primos ():
                 break
         if (ehprimo):
             primos = primos + str(n) + ","
-            qtd += 1
+            qtd = qtd + 1
+            print (qtd)
             if (qtd % 10 ==0):
                 primos = primos + "->" + str(qtd) + "<br>"
             n+=1
