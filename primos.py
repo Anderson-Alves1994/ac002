@@ -5,7 +5,6 @@ from math import sqrt
 app = Flask(__name__)
 
 @app.route('/')
-
 def numeros_primos ():
 
     limite = 100
